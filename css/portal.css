@@ -1,0 +1,53 @@
+.textos p{
+    text-align: center;
+    margin: 40px 180px 0 180px;
+    font-size: 25px;
+}
+
+footer img{
+    margin-top: 2%;
+    margin-left: 93%;
+    width: 70px;
+}
+
+.portal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 100px;
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+.icone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    border: 2px solid #a82d2d;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #a82d2d;
+    color: white;
+    justify-content: space-around;
+}
+
+.icone img{
+    width: 80px;
+    height: 80px;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+}
+
+.dados p{
+    margin-bottom: 0.2px;
+    margin-top: 5px;
+}
+
+.geral{
+    display: flex;
+    flex-direction: column;
+}

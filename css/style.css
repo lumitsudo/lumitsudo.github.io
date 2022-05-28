@@ -1,0 +1,103 @@
+body{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+hr{
+    height: 20px;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #a82d2d;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+}
+
+ul{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+li{
+    font-size: 22px;
+    margin-left: 24px;
+    margin-top: 12px;
+    list-style: none;
+    color: white;
+}
+
+.conceito{
+    width: 700px;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: column;
+}
+
+.direita{
+    margin-top: 120px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.direita p{
+    font-size: 25px;
+    margin: 0;
+}
+
+.direita h2{
+    font-size: 35px;
+}
+
+.parte{
+    text-align: center;
+    font-size: 25px;
+}
+
+.parte button{
+    background-color: #a82d2d;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    color: white
+}
+
+.parte button:hover{
+    background-color: #000;
+}
+
+footer img{
+    margin-top: 5%;
+    margin-left: 93%;
+    width: 70px;
+}
